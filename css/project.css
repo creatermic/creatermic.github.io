@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-image: url("./background.jpg") no-repeat center center fixed;
+  background-image: url("./background.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -52,7 +52,7 @@ nav ul {
 
 nav a {
   font-size: x-large;
-  color: rgb(250, 246, 8);
+  color: red);
 }
 
 
