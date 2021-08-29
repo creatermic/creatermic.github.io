@@ -57,6 +57,7 @@ nav a {
 
 
 
+
 .products {
   text-align: center;
   display: flex;
@@ -70,6 +71,9 @@ nav a {
   border-radius: 1em;
   overflow: hidden;
   box-shadow: 0 0 1em rgba(235, 228, 228, 0.99);
+}
+.product-box {
+   text-decoration: none;
 }
 
 .product:hover {
@@ -199,14 +203,17 @@ nav a:focus {
 
   .products {
     display: grid;
+    /* height: 700px; */
     grid-template-columns: 50% 50%;
+    /* grid-auto-flow: 25%; */
     grid-gap: 1em;
     max-width: 1200px;
     padding: 0 5em;
   }
 
   .product {
-    margin: 5px; */
+     height: 220px;
+    margin: 5px;
   }
 
   .product + .product {
