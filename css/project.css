@@ -156,12 +156,12 @@ nav a:focus {
 }
 
 .btn-primary {
-  background: rgb(16, 230, 194);
+  background: #f79102;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background: rgb(240, 187, 15);
+  background: white;
 }
 
 .btn-accent {
