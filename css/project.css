@@ -10,6 +10,22 @@ html {
   /* height: 100%; */
 }
 
+.cbpurple:hover {
+  background: purple;
+}
+
+.cbblue:hover {
+  background: blue;
+}
+
+.cbyellow:hover {
+  background: yellow;
+}
+
+.cbred:hover {
+  background: red;
+}
+
 body {
   background-image: url("../img.jpg");
   -webkit-background-size: cover;
