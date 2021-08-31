@@ -1,0 +1,19 @@
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: right;
+}
+label {
+  color: rgba(253, 252, 253, 0.966);
+}
+ul {
+  
+    list-style: none;
+}
+input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
