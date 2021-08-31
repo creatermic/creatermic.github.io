@@ -8,6 +8,7 @@ html {
   background-color: rgb(7, 7, 7);
   /* opacity: 0.8; */
   /* height: 100%; */
+  height: 100%;
 }
 
 .cbpurple:hover {
@@ -41,6 +42,15 @@ body {
   margin: 0;
 }
 
+main {
+  width: 80vw;
+  align-content: center;
+  alignment: center;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+}
+
 .logo a {
   /* text-align: center; */
   color: white;
@@ -60,20 +70,6 @@ header p {
 /* p {
    margin-bottom: 0.85em;
 } */
-
-nav ul {
-  display: block;
-  text-align: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  justify-content: space-around;
-}
-
-nav a {
-  font-size: x-large;
-  color: white;
-}
 
 .products {
   text-align: center;
@@ -96,6 +92,7 @@ nav a {
 .kontakt {
   color: aliceblue;
   text-align: center;
+  align-self: center;
   width: 100%;
 }
 
@@ -194,11 +191,7 @@ header {
 
 /*navigation*/
 
-nav a:hover,
-nav a:focus {
-  color: #f79102;
-  text-decoration: underline;
-}
+
 
 /*Buttons*/
 
@@ -247,15 +240,6 @@ nav a:focus {
     margin-left: 0.5em;
   }
 
-  nav ul {
-    display: flex;
-    text-align: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    justify-content: space-around;
-  }
-
   .products {
     display: grid;
     /* height: 700px; */
@@ -277,4 +261,43 @@ nav a:focus {
   .product:last-of-type {
     margin-bottom: 0;
   }
+}
+
+nav {
+  font-weight: bold;
+  color: orange;
+  border: 2px solid orange;
+  text-align: center;
+  width: 10em;
+  background-color: black;
+}
+nav ul {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav:hover ul {
+  display: block;
+  background-color: #010101;
+
+}
+
+nav ul li {
+  border-top: 2px solid orange;
+  background-color: black;
+  width: 10em;
+  color: orange;
+}
+
+nav ul li:hover {
+  background-color: #010101;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: orange;
 }
