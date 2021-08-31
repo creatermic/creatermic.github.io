@@ -17,7 +17,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 100%;
-  opacity: 0.5;
+  opacity: 0.9;
   margin: 0;
 }
 
@@ -55,9 +55,6 @@ nav a {
   color: white;
 }
 
-
-
-
 .products {
   text-align: center;
   display: flex;
@@ -72,8 +69,17 @@ nav a {
   overflow: hidden;
   box-shadow: 0 0 1em rgba(235, 228, 228, 0.99);
 }
+
 .product-box {
+   color: aliceblue;
    text-decoration: none;
+}
+
+.product-box:hover {
+  /*background: aliceblue;
+  opacity: 10%;*/
+  border-radius: 1em;
+  color: #f79102;
 }
 
 .product:hover {
@@ -85,7 +91,7 @@ nav a {
 }
 
 .product__title {
-  color: #f79102;
+  /*color: #f79102;*/
   font-size: 2.5rem;
   margin-bottom: 0.5em;
   /* word-break: break-all; */
