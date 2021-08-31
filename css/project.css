@@ -11,18 +11,22 @@ html {
 }
 
 .cbpurple:hover {
-  background: purple;
+  opacity: 0.9;
+  background: greenyellow;
 }
 
 .cbblue:hover {
+  opacity: 0.9;
   background: blue;
 }
 
 .cbyellow:hover {
+  opacity: 0.9;
   background: yellow;
 }
 
 .cbred:hover {
+  opacity: 0.9;
   background: red;
 }
 
