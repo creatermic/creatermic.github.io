@@ -93,11 +93,12 @@ header p {
 
 .kontakt {
   position: relative;
-  border: #0BB6B6;
+  border: #0bb636;
   border-style: double;
   color: aliceblue;
   text-align: center;
   align-self: center;
+  margin: auto;
   width: 50%;
 }
 
