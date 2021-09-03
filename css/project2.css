@@ -43,7 +43,9 @@ body {
 }
 
 main {
-  width: 80vw;
+  border-style: double;
+  border-color: red;
+
   align-content: center;
   alignment: center;
   text-align: center;
@@ -90,10 +92,13 @@ header p {
 
 
 .kontakt {
+  position: relative;
+  border: #0BB6B6;
+  border-style: double;
   color: aliceblue;
   text-align: center;
   align-self: center;
-  width: 100%;
+  width: 50%;
 }
 
 .input_form_width_18 {
@@ -246,7 +251,7 @@ header {
     grid-template-columns: 50% 50%;
     /* grid-auto-flow: 25%; */
     grid-gap: 1em;
-    max-width: 1200px;
+    /*max-width: 1200px;*/
     padding: 0 5em;
   }
 

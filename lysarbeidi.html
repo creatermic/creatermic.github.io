@@ -24,17 +24,24 @@
     <main>
       <div class="kontakt">
         <form method="get" action="index.html">
-          <label>Navn: </label><input type="text" name="name" class="input_form_width_18" placeholder="Anders And">
+          <label>Navn: </label><input type="text" name="name" class="input_form_width_18" placeholder="Anders And" required>
           <br>
-          <label>Email: </label><input type="text" name="email" class="input_form_width_17" placeholder="anders@and.andeby">
+          <label>Email: </label><input type="text" name="email" class="input_form_width_17" placeholder="anders@and.andeby" required>
           <br>
           <label>Arbeiðstittul: </label><input type="text" class="input_form_width_14" placeholder="Altmuligmand">
           <br>
-          <label>CV:</label>
-          <br>
+          <label>Lívsrensl:</label>
           <input type="file" name="cvupload">
           <!--<textarea class="cvarea" name="cvtext"></textarea>-->
           <br>
+          <label>Nær kanst tú byrja?</label> <input type="datetime-local" name="startdate" required>
+          <BR>
+          <label>Kyn:</label>
+          <BR>
+          Maður: <input type="radio" name="gender">
+          <br>
+          Kvinna: <input type="radio" name="gender">
+          <BR>
           <input type="submit" name="submit" class="button2"><input type="reset" name="reset" class="button2">
         </form>
       </div>
