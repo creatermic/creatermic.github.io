@@ -96,10 +96,10 @@ header p {
   border: #0bb636;
   border-style: double;
   color: aliceblue;
-  text-align: center;
+  text-align: left;
   align-self: center;
   margin: auto;
-  width: 50%;
+  width: 25%;
 }
 
 .input_form_width_18 {
